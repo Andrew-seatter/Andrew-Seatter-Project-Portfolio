@@ -36,26 +36,58 @@ nav ul{
 display: inline-flex;
 list-style: none;
 font-size: 20px;
-    color:azure;
+color:azure;
     
 }
 
 nav ul li{
+    
     margin:10px;
+    justify-content: space-between;
 }
 
 #About-Me{
-    
+    text-align: center;
+    padding: 50px;
     border-color: #1d3333;
     border:10px;
+    font-size: large;
+    
 }
 
-.Projects{
+.container{
+    justify-content: space-between;
+    align-content: right;
+    display: flex; 
+    flex-direction: row;
     flex-wrap: wrap;
+     height: max-content;
+    
 }
+
+.project-card {
+    border: 3px;
+    line-height: 1;
+    padding: 2rem 1rem;
+    width: 20rem;
+    text-align: center;
+    margin: 10px;
+}
+
 #first-project-card {
-    flex-grow: 1;
+    flex-basis: 30rem;
+   
 }
+
+#second-project-card .third-project-card .fourth-project-card {
+    flex-shrink: 10rem;
+}
+
 figure img{
-    max-block-size: 400px;
+   max-block-size: 400px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #1d3333;
 }
