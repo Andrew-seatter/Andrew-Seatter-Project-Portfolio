@@ -104,3 +104,25 @@ footer ul li{
     margin:10px;
     text-align: right;
 }
+
+@media screen and (min-width: 768px) {
+    
+    .project-card {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    /* select the last child to grow to full width if it has space to grow */
+    #first-project-card {
+      flex-grow: 1;
+    }
+  }
+  
+  /* media query for larger screens */
+  @media screen and (min-width: 992px) {
+    
+    .project-card {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+}
