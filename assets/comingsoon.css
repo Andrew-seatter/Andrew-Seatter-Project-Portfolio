@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+}
+
+.bgimg {
+    background-image: url(https://i.redd.it/if3ldk2w2j841.jpg);
+    height: 100%;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.middle-text {
+    position: absolute;
+    text-align: center;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}

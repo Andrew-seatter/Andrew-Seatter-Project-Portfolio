@@ -89,5 +89,18 @@ figure img{
 
 footer {
     margin-top: 20px;
+    padding: 30px;;
     background-color: #1d3333;
+    color:azure;
+    font-size: 30px;
+}
+
+footer ul{
+    text-align: right;
+}
+
+footer ul li{
+    display: inline;
+    margin:10px;
+    text-align: right;
 }
