@@ -5,9 +5,8 @@ The goal of this project was to utilize our newfound flexbox and media query kno
 ## Usage
 Portfolio acts as a a catalogue for future projects. All images act as links and they respond to different sizes of screens. Links in the nav bar will take you down to various parts of the page and all of the contact links on the bottom are functional as well.
 
-![website-screenshot](assets\2023-10-17.png)
+![website-screenshot](./assets/2023-10-17.png)
 Link to deployed website: https://andrew-seatter.github.io/Andrew-Seatter-Project-Portfolio/
-
 ## License
 
 The MIT License (MIT)
