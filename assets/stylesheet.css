@@ -47,6 +47,8 @@ nav ul li{
 }
 
 #About-Me{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 50px;
     border-color: #1d3333;
@@ -112,13 +114,11 @@ footer ul li{
       max-width: 50%;
     }
   
-    /* select the last child to grow to full width if it has space to grow */
     #first-project-card {
       flex-grow: 1;
     }
   }
   
-  /* media query for larger screens */
   @media screen and (min-width: 992px) {
     
     .project-card {
