@@ -47,6 +47,8 @@ nav ul li{
 }
 
 #About-Me{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 50px;
     border-color: #1d3333;
@@ -103,4 +105,24 @@ footer ul li{
     display: inline;
     margin:10px;
     text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .project-card {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    #first-project-card {
+      flex-grow: 1;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    
+    .project-card {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
 }
